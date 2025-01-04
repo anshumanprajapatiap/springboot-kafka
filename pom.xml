@@ -7,6 +7,12 @@
     <groupId>com.anshumanprajapati</groupId>
     <artifactId>springboot-kafka</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>kafka-common</module>
+        <module>common-kafka-consumer</module>
+        <module>common-kafka-producer</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
